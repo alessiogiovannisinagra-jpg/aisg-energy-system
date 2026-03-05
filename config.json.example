@@ -1,0 +1,29 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "dbuser",
+    "password": "dbpassword",
+    "name": "energy_db"
+  },
+  "server": {
+    "port": 8080,
+    "environment": "development"
+  },
+  "devices": [
+    {
+      "id": "device_1",
+      "type": "sensor",
+      "location": "building_a"
+    },
+    {
+      "id": "device_2",
+      "type": "actuator",
+      "location": "building_b"
+    }
+  ],
+  "monitoring": {
+    "enable": true,
+    "frequency": 60
+  }
+}
